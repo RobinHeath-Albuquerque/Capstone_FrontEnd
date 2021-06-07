@@ -1,7 +1,22 @@
+/* master style*/
+
+body {
+    margin: 0px;
+    background-color: darkseagreen;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav Bar Style */
+
 .nav-wrapper {
     display:flex;
     justify-content: space-between;
     padding: 38px;
+    background-color: cornsilk;
 }
 
 .left-side {
@@ -25,7 +40,8 @@
 
 
 .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: black;
+    font-weight: bolder;
     text-decoration: none;
     transition: color 0.5s;    
 }
@@ -37,3 +53,37 @@
 .nav-link-wrapper a:hover {
     color: black;
 }
+
+/*images styles */
+
+.capstone-image-wrapper img {
+    width: 200%;
+    height: auto;
+    size: cover;
+    position: center;
+    padding-left: 50px;
+}
+
+.calendar-content-wrapper {
+    padding-left: 150px;
+}
+/* growers styles */
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.booth-image-wrapper img {
+    width: 90%;
+    height: 500px;
+    size: cover;
+    position: center;
+    
+}
+
+l.booth-content-wrapper {
+    padding: 30px;
+}
+
+
