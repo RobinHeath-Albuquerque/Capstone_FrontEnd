@@ -57,11 +57,9 @@ body {
 /*images styles */
 
 .capstone-image-wrapper img {
-    width: 200%;
-    height: auto;
-    size: cover;
-    position: center;
-    padding-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
 }
 
 .calendar-content-wrapper {
