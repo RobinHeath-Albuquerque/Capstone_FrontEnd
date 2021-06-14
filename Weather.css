@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.weather {
+    background-image: url("./images/Weather.jpg");
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-in-out;
+
+}
+
+
+
+.search-box {
+    width: 100%;
+    margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: darkgreen
+}
